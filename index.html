@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible">
+	<link rel="stylesheet" href="styles.css">
+	<title>Física || Resistores</title>
+</head>
+<body>
+
+	<div class="container">
+		<header>
+			<h1>Física</h1>
+			<img src="atom.svg" alt="Ícone de um átomo" class="atomo">
+		</header>
+		<p>Calcule a resistência equivalente da associação, calcule a potência dissipada nos resistores R<sub>1</sub> e R<sub>2</sub>, a DDP em cada registor e a geral.</p>
+
+		<p>Informe o valor de U:</p>
+		<label for="u">U:</label>		
+		<input type="number" id="u">
+
+		<p>Informe a resistência de cada um dos seis registores:</p>
+		<div class="registores">
+			<div>
+				<label for="registor1">Registor 1:</label>
+				<input type="number" id="registor1">
+			</div>
+			<div>
+				<label for="registor2">Registor 2:</label>
+				<input type="number" id="registor2">
+			</div>
+			<div>
+				<label for="registor3">Registor 3:</label>
+				<input type="number" id="registor3">
+			</div>
+			<div>
+				<label for="registor4">Registor 4:</label>
+				<input type="number" id="registor4">
+			</div>
+			<div>
+				<label for="registor5">Registor 5:</label>
+				<input type="number" id="registor5">
+			</div>
+			<div>
+				<label for="registor6">Registor 6:</label>
+				<input type="number" id="registor6">
+			</div>
+		</div>
+		<button onclick="calcular()">Mostrar resultado</button>
+		<p id="resultado"></p>
+	</div>
+	<script src='script.js'></script>
+</body>
+</html>
